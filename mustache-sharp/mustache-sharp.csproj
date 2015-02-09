@@ -37,7 +37,46 @@
     <!-- A reference to the entire .NET Framework is automatically included -->
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArgumentCollection.cs" />
+    <Compile Include="CompoundGenerator.cs" />
+    <Compile Include="ConditionTagDefinition.cs" />
+    <Compile Include="ContentTagDefinition.cs" />
+    <Compile Include="Context.cs" />
+    <Compile Include="ContextParameter.cs" />
+    <Compile Include="EachTagDefinition.cs" />
+    <Compile Include="ElifTagDefinition.cs" />
+    <Compile Include="ElseTagDefinition.cs" />
+    <Compile Include="FormatCompiler.cs" />
+    <Compile Include="Generator.cs" />
+    <Compile Include="IArgument.cs" />
+    <Compile Include="IfTagDefinition.cs" />
+    <Compile Include="IGenerator.cs" />
+    <Compile Include="IndexTagDefinition.cs" />
+    <Compile Include="InlineGenerator.cs" />
+    <Compile Include="InlineTagDefinition.cs" />
+    <Compile Include="KeyFoundEventArgs.cs" />
+    <Compile Include="KeyGenerator.cs" />
+    <Compile Include="KeyNotFoundEventArgs.cs" />
+    <Compile Include="MasterTagDefinition.cs" />
+    <Compile Include="NestedContext.cs" />
+    <Compile Include="NewlineTagDefinition.cs" />
+    <Compile Include="NumberArgument.cs" />
+    <Compile Include="PlaceholderArgument.cs" />
+    <Compile Include="PlaceholderFoundEventArgs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PropertyDictionary.cs" />
+    <Compile Include="RegexHelper.cs" />
+    <Compile Include="Scope.cs" />
+    <Compile Include="SetTagDefinition.cs" />
+    <Compile Include="StaticGenerator.cs" />
+    <Compile Include="StringArgument.cs" />
+    <Compile Include="TagDefinition.cs" />
+    <Compile Include="TagParameter.cs" />
+    <Compile Include="UpcastDictionary.cs" />
+    <Compile Include="ValueRequestEventArgs.cs" />
+    <Compile Include="VariableArgument.cs" />
+    <Compile Include="VariableFoundEventArgs.cs" />
+    <Compile Include="WithTagDefinition.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
