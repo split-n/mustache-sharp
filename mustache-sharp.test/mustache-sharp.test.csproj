@@ -47,6 +47,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UpcastDictionaryTester.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\mustache-sharp\mustache-sharp.csproj">
+      <Project>{ed18fec2-a223-4f94-aa01-4078609a33f1}</Project>
+      <Name>mustache-sharp</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
