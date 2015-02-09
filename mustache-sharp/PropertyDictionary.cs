@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
 using System.Reflection;
@@ -166,7 +167,7 @@ namespace Mustache
                     object value = getter(_instance);
                     values.Add(value);
                 }
-                return values.AsReadOnly();
+                return new ReadOnlyCollection<object>(values);
             }
         }
 
