@@ -8,9 +8,8 @@
     <ProjectGuid>{ED18FEC2-A223-4F94-AA01-4078609A33F1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>mustache_sharp</RootNamespace>
+    <RootNamespace>Mustache</RootNamespace>
     <AssemblyName>mustache-sharp</AssemblyName>
-    <DefaultLanguage>ja-JP</DefaultLanguage>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TargetFrameworkProfile>Profile92</TargetFrameworkProfile>
