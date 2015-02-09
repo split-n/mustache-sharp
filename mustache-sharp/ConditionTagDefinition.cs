@@ -65,10 +65,17 @@ namespace Mustache
 
         private bool isConditionSatisfied(object condition)
         {
-            if (condition == null || condition == DBNull.Value)
+            if (condition == null)
             {
                 return false;
             }
+
+            //XXX: Because WinRT doesn't have System.DBNull type.
+            if (condition.GetType().FullName == "System.DBNull")
+            {
+                return false;
+            }
+            
             IEnumerable enumerable = condition as IEnumerable;
             if (enumerable != null)
             {
